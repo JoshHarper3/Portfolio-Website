@@ -2,6 +2,23 @@ body {
     background-color: black;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .nav-link{
     color: black;
+    margin: 30px;
+}
+
+h1{
+    color: white;
+}
+
+#creative_coding,
+#web_design,
+#graphic_design,
+#media_studio,
+#principles_of_3D_environments{
+    height: 700px
 }
