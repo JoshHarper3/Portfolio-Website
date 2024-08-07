@@ -13,6 +13,8 @@ html{
 
 h1{
     color: white;
+    font-size: 70px;
+    
 }
 
 #creative_coding,
@@ -20,5 +22,5 @@ h1{
 #graphic_design,
 #media_studio,
 #principles_of_3D_environments{
-    height: 700px
+    height: 700px;
 }
