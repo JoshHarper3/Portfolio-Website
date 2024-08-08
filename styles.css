@@ -6,6 +6,15 @@ html{
     scroll-behavior: smooth;
 }
 
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/portrait.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
 .nav-link{
     color: black;
     margin: 30px;
@@ -17,6 +26,7 @@ h1{
     
 }
 
+#about_me,
 #creative_coding,
 #web_design,
 #graphic_design,
