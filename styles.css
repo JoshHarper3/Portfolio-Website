@@ -52,7 +52,7 @@ h1{
     max-width: 100%;
     height: auto;
     display: block;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #about{
@@ -119,6 +119,12 @@ p{
     font-size: 14px;
 }
 
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
 .row{
     display: flex;
     justify-content: space-between;

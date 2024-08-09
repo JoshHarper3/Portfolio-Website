@@ -85,13 +85,39 @@
 
                 <div class="tab-headers">
 
-                  <p class="tab-links active-link">Skills</p>
-                  <p class="tab-links">Qualifications</p>
-                  <p class="tab-links">Experience</p>
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('qualifications')">Qualifications</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
                 </div>
-                <div class="tab-contents">
+                <div class="tab-contents active-tab" id="skills">
                   <ul>
                     <li><span>HTML/CSS</span><br>Website Design</li>
+                    <li><span>Javascript</span><br>Creative Artworks/Animations</li></li>
+                    <li><span>3D Modelling</span><br>Maya Proficient</li></li>
+                    <li><span>3D Animation</span><br>Keyframe Animation in Maya</li></li>
+                    <li><span>Graphic Design</span><br>Proficient in Adobe Suite</li></li>
+                    <li><span>Video Editing</span><br>Proficient in Premiere Pro</li></li>
+                  </ul>
+
+
+                </div>
+
+                <div class="tab-contents" id="qualifications">
+                  <ul>
+                    <li><span>Test 1</span><br>Website Design</li>
+                    <li><span>Javascript</span><br>Creative Artworks/Animations</li></li>
+                    <li><span>3D Modelling</span><br>Maya Proficient</li></li>
+                    <li><span>3D Animation</span><br>Keyframe Animation in Maya</li></li>
+                    <li><span>Graphic Design</span><br>Proficient in Adobe Suite</li></li>
+                    <li><span>Video Editing</span><br>Proficient in Premiere Pro</li></li>
+                  </ul>
+
+
+                </div>
+
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>Test 2</span><br>Website Design</li>
                     <li><span>Javascript</span><br>Creative Artworks/Animations</li></li>
                     <li><span>3D Modelling</span><br>Maya Proficient</li></li>
                     <li><span>3D Animation</span><br>Keyframe Animation in Maya</li></li>
@@ -170,7 +196,23 @@
 
 
 
+<script>
 
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+   
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
 
 
 
@@ -179,3 +221,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
+https://www.youtube.com/watch?v=0YFrGy_mzjY&t=1249s tutorial used for about section
