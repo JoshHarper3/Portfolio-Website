@@ -27,7 +27,7 @@ html{
 .header-text h1{
     font-size: 60px;
     font-weight: bold;
-    color: gold;
+    color: pink;
 }
 .nav-link{
     color: black;
@@ -40,7 +40,6 @@ h1{
     
 }
 
-#about_me,
 #creative_coding,
 #web_design,
 #graphic_design,
@@ -48,3 +47,81 @@ h1{
 #principles_of_3D_environments{
     height: 700px;
 }
+
+#about_me .about-me-col-1 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+#about{
+    padding: 80px 0;
+}
+
+.about-me-col-1{
+    flex-basis: 35%;
+}
+
+.about-me-col-2{
+    flex-basis: 60%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.subheading_about{
+    font-size: 60px;
+
+}
+
+p{
+    font-size: 15px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.tab-headers{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #FF92A5;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color:#FF92A5;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
