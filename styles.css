@@ -33,6 +33,11 @@ html{
     color: black;
     margin: 30px;
 }
+.nav-link:hover{
+    color: #FF92A5;
+    opacity: 80%;
+}
+
 
 h1{
     color: white;
