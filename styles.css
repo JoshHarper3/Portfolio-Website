@@ -37,6 +37,10 @@ html{
 h1{
     color: white;
     font-size: 70px;
+    padding: 0 120px;
+    font-family: "lorimer-no-2", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     
 }
 
