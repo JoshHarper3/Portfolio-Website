@@ -49,7 +49,7 @@ h1{
 #graphic_design,
 #media_studio,
 #principles_of_3D_environments{
-    height: 700px;
+    height: 1000px;
 }
 
 #about_me .about-me-col-1 img{
@@ -140,6 +140,7 @@ p{
     height: 250px;
     border-radius: 50%;
     border: 5px solid #FF92A5;
+    margin-bottom: 0;
     object-fit: cover;
 
 }
@@ -149,5 +150,29 @@ p{
 }
 
 #creative_coding{
+    padding: 50px 0;
+}
+
+#web_design .row{
+    min-height: 300px;
+}
+
+#web_design{
+    padding: 50px 0;
+}
+
+#media_studio .row{
+    min-height: 300px;
+}
+
+#media_studio{
+    padding: 50px 0;
+}
+
+#principles_of_3D_environments .row{
+    min-height: 300px;
+}
+
+#principles_of_3D_environments{
     padding: 50px 0;
 }
