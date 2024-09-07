@@ -33,10 +33,19 @@ html{
     color: black;
     margin: 30px;
 }
+.nav-link:hover{
+    color: #FF92A5;
+    opacity: 80%;
+}
+
 
 h1{
     color: white;
     font-size: 70px;
+    padding: 0 120px;
+    font-family: "lorimer-no-2", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     
 }
 
@@ -45,7 +54,7 @@ h1{
 #graphic_design,
 #media_studio,
 #principles_of_3D_environments{
-    height: 700px;
+    height: 1000px;
 }
 
 #about_me .about-me-col-1 img{
@@ -131,3 +140,44 @@ p{
     flex-wrap: wrap;
 }
 
+.circle-image-creative-coding-1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #FF92A5;
+    margin-bottom: 0;
+    object-fit: cover;
+
+}
+
+#creative_coding .row{
+    min-height: 300px;
+}
+
+#creative_coding{
+    padding: 50px 0;
+}
+
+#web_design .row{
+    min-height: 300px;
+}
+
+#web_design{
+    padding: 50px 0;
+}
+
+#media_studio .row{
+    min-height: 300px;
+}
+
+#media_studio{
+    padding: 50px 0;
+}
+
+#principles_of_3D_environments .row{
+    min-height: 300px;
+}
+
+#principles_of_3D_environments{
+    padding: 50px 0;
+}
