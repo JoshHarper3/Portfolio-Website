@@ -50,15 +50,7 @@ h1{
 }
 
 
-#creative_coding,
-#web_design,
-#graphic_design,
-#media_studio,
-#principles_of_3D_environments,
-#contact_me
-{
-    height: 1000px; /* use this to control height of sections and alievate any flex issues*/
-}
+
 
 #about_me .about-me-col-1 img{
     max-width: 100%;
@@ -159,6 +151,7 @@ p{
 
 #creative_coding{
     padding: 50px 0;
+    margin-bottom: 10px;
 }
 
 #web_design .row{
@@ -167,6 +160,7 @@ p{
 
 #web_design{
     padding: 50px 0;
+    margin-bottom: 10px;
 }
 
 #media_studio .row{
@@ -175,6 +169,7 @@ p{
 
 #media_studio{
     padding: 50px 0;
+    margin-bottom: 50px;
 }
 
 #principles_of_3D_environments .row{
@@ -182,8 +177,7 @@ p{
 }
 
 #principles_of_3D_environments{
-    padding: 50px 0;
-    margin-bottom: 0;
+   margin-bottom: 50px;
 }
 
 #contact_me .row{
@@ -191,8 +185,8 @@ p{
 }
 
 #contact_me{
+    margin-top: -20px;
     padding: 50px 0;
-    margin-top: 0;
 }
 
 .contact-container {
@@ -208,6 +202,7 @@ p{
     align-items: flex-start; 
     gap: 20px;
     padding-left: 100px;
+    margin-bottom: 400px; /* margin bottom to push up contact */
 }
 
 .contact-left h1 {
@@ -259,6 +254,7 @@ p{
     align-items: center;
     justify-content: center; 
     flex: 1; 
+    margin-bottom: 400px; /* margin bottom pushes contact me up the screen */
 }
 
 .contact-right img {
