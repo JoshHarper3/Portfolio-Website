@@ -183,47 +183,45 @@ p{
     padding: 50px 0;
 }
 
-.contact-container{
+.contact-container {
     height: 100vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 120px;
-   
+    align-items: center; 
+    justify-content: space-between; 
 }
 
-.contact-left{
+.contact-left {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start; 
     gap: 20px;
+    padding-left: 100px;
 }
 
-#contact_me h1 {
-    text-align: left;
-    padding: 0 120px; 
+.contact-left h1 {
     color: white;
     font-size: 70px;
-    display: block;
+    margin-bottom: 20px; 
+    padding: 0;
 }
 
-.contact-left-heading{
-   padding: 0 120px;
+.contact-inputs {
+    width: 100%;
+    max-width: 500px; 
+    padding: 10px;
+    margin-bottom: 20px; 
 }
 
-
-.contact-right{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
+.contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex: 1; 
 }
 
-.contact-image{
-    max-width: 150%;
+.contact-right img {
+    max-width: 100%; 
     height: auto;
-    position: absolute;
-    right: 0;
-    top: 10%;
 }
 
 
