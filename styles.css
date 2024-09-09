@@ -258,12 +258,28 @@ p{
     justify-content: center; 
     flex: 1; 
     margin-bottom: 100px;
-  
 }
 
 .contact-right img {
-    max-width: 1000px; 
-    height: auto;
+    max-width: 100%; /* Image will take up maximum space but never exceed its container's width */
+    width: 100%;     /* Ensures the image is responsive and shrinks with the container */
+    height: auto;    /* Maintains the aspect ratio of the image */
+    object-fit: cover; /* Ensures image fills its container */
+}
+
+
+
+
+@media (min-width: 992px) {
+    .contact-right img{
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-right img{
+        max-width: 75%;
+    }
 }
 
 
