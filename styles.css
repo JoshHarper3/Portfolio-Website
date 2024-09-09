@@ -35,6 +35,7 @@ html{
 .nav-link:hover{
     color: #FF92A5;
     opacity: 80%;
+    text-decoration: none;
 }
 
 .navbar-color{
