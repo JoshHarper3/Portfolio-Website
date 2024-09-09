@@ -187,13 +187,15 @@ p{
 #contact_me{
     margin-top: -20px;
     padding: 50px 0;
+    padding-bottom: 0px;
 }
 
 .contact-container {
-    height: 100vh;
+    height: 550px;
     display: flex;
     align-items: center; 
     justify-content: space-between; 
+    padding-bottom: 0px;
 }
 
 .contact-left {
@@ -202,7 +204,8 @@ p{
     align-items: flex-start; 
     gap: 20px;
     padding-left: 100px;
-    margin-bottom: 400px; /* margin bottom to push up contact */
+    height: 400px;
+    margin-bottom: 100px;
 }
 
 .contact-left h1 {
@@ -254,7 +257,8 @@ p{
     align-items: center;
     justify-content: center; 
     flex: 1; 
-    margin-bottom: 400px; /* margin bottom pushes contact me up the screen */
+    margin-bottom: 100px;
+  
 }
 
 .contact-right img {
@@ -267,6 +271,13 @@ p{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.footer-color{
+    background-color: #FF92A5;   
+    margin-top: 0px; /* Remove any margin that pushes the footer down */
+    padding-top: 10px; /* Optionally reduce padding on top */
+    padding-bottom: 10px;
 }
 
 @media (max-width: 800px) { /* controlling small screen view for contact page*/
