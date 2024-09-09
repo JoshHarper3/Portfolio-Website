@@ -33,12 +33,12 @@ html{
     margin: 30px;
 }
 .nav-link:hover{
-    color: white;
+    color: #FF92A5;
     opacity: 80%;
 }
 
 .navbar-color{
-    background-color: #FF92A5;
+    background-color: white;
 }
 
 
@@ -221,7 +221,7 @@ p{
     align-items: flex-start; 
     gap: 20px;
     padding-left: 100px;
-    height: 400px;
+    height: 400px; /* controls the contact me section padding effectively */
     margin-bottom: 100px;
 }
 
