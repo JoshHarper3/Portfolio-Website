@@ -104,6 +104,8 @@ p{
     font-weight: lighter;
 }
 
+
+
 .media-p{
     font-size: 15px;
     color: #F5F5F5;
@@ -369,7 +371,7 @@ p{
     }
 }
 
-@media (min-width: 601px) and (max-width: 1100px) {
+@media (min-width: 601px) and (max-width: 1100px) { /* ipad size */
     #header{
         background-image: url(images/mobile_test.jpg);
     }
