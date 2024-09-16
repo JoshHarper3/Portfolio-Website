@@ -28,6 +28,13 @@ html{
     font-weight: bold;
     color: pink;
 }
+
+.header-text p{
+    font-size: 15px;
+   color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
 .nav-link{
     color: black;
     margin: 30px;
