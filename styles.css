@@ -356,18 +356,51 @@ p{
     padding-top: 10px; /* Optionally reduce padding on top */
     padding-bottom: 10px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/mobile_test_800px.jpg); /* New image for 800px screens */
+        background-image: url(images/mobile_test.jpg); /* New image for 800px screens */
     }
     .header-text {
         font-size: 40px; /* Adjust as needed for 800px */
-        padding-left: 150px;
+        padding-left: 60px;
     }
     .header-text h1 {
         font-size: 30px;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 950px) {
+    #header{
+        background-image: url(images/mobile_test.jpg);
+    }
+    .header-text{
+        font-size: 31px;
+        padding-left: 80px;
+    }
+    .header-text h1{
+        font-size: 45px;
+
+    }
+
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1200px) {
+    #header {
+        background-image: url(images/testing.jpg)
+    }
+    .header-text h1{
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    #header {
+        background-image: url(images/portrait_laptop.jpg);
+    }
+}
+
+
+
 
 @media (max-width: 950px) { /* controlling small screen view for contact page*/
     .contact-inputs{
@@ -420,44 +453,4 @@ p{
     }
     
 }
-@media only screen and (max-width: 800px) {
-    #header {
-        background-image: url(images/mobile_test_800px.jpg); /* New image for 800px screens */
-    }
-    .header-text {
-        font-size: 40px; /* Adjust as needed for 800px */
-        padding-left: 150px;
-    }
-    .header-text h1 {
-        font-size: 30px;
-    }
-}
 
-@media only screen and (max-width: 950px) {
-    #header{
-        background-image: url(images/mobile_test.jpg);
-    }
-    .header-text{
-        font-size: 31px;
-        padding-left: 80px;
-    }
-    .header-text h1{
-        font-size: 45px;
-        margin-bottom: -4000px;
-    }
-}
-
-@media only screen and (min-width: 951px) and (max-width: 1200px) {
-    #header {
-        background-image: url(images/testing.jpg)
-    }
-    .header-text h1{
-        padding-right: 100px;
-    }
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1600px) {
-    #header {
-        background-image: url(images/portrait_laptop.jpg);
-    }
-}
