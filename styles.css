@@ -358,7 +358,7 @@ p{
 }
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/mobile_test.jpg); /* New image for 800px screens */
+        background-image: url(images/test_2.jpg); /* New image for 800px screens */
     }
     .header-text {
         font-size: 40px; /* Adjust as needed for 800px */
