@@ -101,7 +101,13 @@ a:hover{
 
 .subheading_about{
     font-size: 60px;
+}
 
+.about-p{
+    font-size: 20px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
 }
 
 p{
@@ -365,9 +371,10 @@ p{
     padding-top: 10px; /* Optionally reduce padding on top */
     padding-bottom: 10px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #header {
-        background-image: url(images/test_1.jpg); /* New image for 800px screens */
+        background-image: none; /* New image for 800px screens */
+        height: auto;
     }
     .header-text p {
         font-size: 16px; /* Adjust as needed for 800px */
@@ -376,9 +383,21 @@ p{
     .header-text h1 {
         font-size: 30px;
     }
+    .about-me-col-1,.about-me-col-2{
+        flex-basis: 100%;
+    }
+
+    .about-me-col-1{
+        margin-bottom: 30px;
+    }
+
+    .about-p{
+        font-size: 14px;
+    }
+
 }
 
-@media (min-width: 601px) and (max-width: 1100px) { /* ipad size */
+@media (min-width: 701px) and (max-width: 1100px) { /* ipad size */
     #header{
         background-image: url(images/mobile_test.jpg);
     }
