@@ -29,7 +29,7 @@ html{
     color: pink;
 }
 
-.header-text p{
+.header-text p{ /* use in media queries to change font size */
     font-size: 15px;
    color: #F5F5F5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
