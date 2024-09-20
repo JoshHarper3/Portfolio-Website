@@ -414,6 +414,19 @@ p{
     height: 100%; /* handles the iframe styling for the last video to ensure even spacing between sections */
 }
 
+.image-container {
+    width: 100%; /* or specify a fixed width if needed */
+    height: auto; /* Remove any fixed height to allow the container to expand */
+    border: 2px solid #FF92A5; /* Pink border */
+    border-radius: 5px;
+}
+
+.image-container img {
+        width: 100%; /* Ensures the image takes the full width of its container */
+        height: auto; /* Maintains the aspect ratio */
+        object-fit: contain; /* Ensures the whole image is visible within its container */
+}
+
 .footer-color{
     background-color: #FF92A5;   
     margin-top: 0px; /* Remove any margin that pushes the footer down */
