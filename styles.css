@@ -173,6 +173,42 @@ p{
     margin-top: 30px;
 }
 
+.web-p{
+    font-size: 15px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.creative-coding-p{
+    font-size: 15px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.creative-coding-h4{
+    font-size: 25px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+.principles-p{
+    font-size: 15px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.principles-h4{
+    font-size: 25px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
 
 .tab-headers{
     display: flex;
@@ -508,18 +544,39 @@ p{
 
 
 @media (max-width: 950px) { /* controlling small screen view for contact page*/
-    .contact-inputs{
-        width: 80vw;
+    .contact-left {
+        padding-left: 0; /* Remove left padding */
+        width: 100%; /* Full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the content horizontally */
+        text-align: center; /* Centers the text */
     }
-    .contact-left{
-        padding-left: 10px;;
+
+    .contact-left h1 {
+        font-size: 50px; /* Adjust title size */
+        text-align: center; /* Center the title */
     }
-    .contact-right{
-        display: none;
+
+    .contact-inputs {
+        width: 80vw; /* Adjust the width for mobile */
+        margin: 10px 0; /* Add some vertical margin */
+        height: 100px; /* Increase the height for taller input fields */
+        font-size: 18px; /* Increase the font size for better readability */
+        padding-left: 25px; /* Keep the padding consistent */
     }
-    .contact-left h1{
-        font-size: 50px;
+
+    .contact-left textarea {
+        width: 80vw; /* Ensure the textarea also scales */
     }
+
+    .contact-left button {
+        align-self: center; /* Center the button */
+    }
+
+    .contact-right {
+        display: none; /* Hide the image section on smaller screens */
+}
 }
 
 
@@ -552,6 +609,41 @@ p{
         margin-top: 10px;
     }
 
+    .web-p{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px;
+    }
+
+    .web-h4{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px; 
+    }
+
+    .web-h4-bootstrap{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px; 
+    }
+
+    .creative-coding-p{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px;
+    }
+
+    .creative-coding-h4{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px;
+    }
+
+    .principles-p{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px;
+    }
+
+    .principles-h4{
+        margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
+        margin-top: 10px;
+    }
+
     .subheading-about {
         padding: 0px;
     }
@@ -563,7 +655,7 @@ p{
         color: white;
         font-size: 60px;
         text-align: center;
-        padding: 0;
+        padding: 0 20px;
         font-family: "lorimer-no-2", sans-serif;
         font-weight: 700;
         font-style: normal;
