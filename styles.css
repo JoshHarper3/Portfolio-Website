@@ -99,7 +99,7 @@ a:hover{
     color: #fff;
 }
 
-.subheading_about{
+.subheading-about{
     font-size: 60px;
     padding-left: 60px;
 }
@@ -551,6 +551,12 @@ p{
         margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
         margin-top: 10px;
     }
+
+    .subheading-about {
+        padding: 0px;
+    }
+
+    
 
 
     h1{
