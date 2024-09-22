@@ -651,7 +651,14 @@ p{
         margin-bottom: 10px; /* provides spacing between text and circular images media studio, handle all spacing this way*/
         margin-top: 10px;
     }
+    .tab-links{
+        font-size: 16px;
+        padding-left: 2px;
+    }
 
+    .about-p{
+        padding-left: 2px;
+    }
     .subheading-about {
         padding: 0px;
     }
