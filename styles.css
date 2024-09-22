@@ -423,6 +423,13 @@ p{
     padding: 5px;
 }
 
+#principles_of_3D_environments iframe{
+    border: 2px solid #FF92A5;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
 
 
 .iframe-container{
@@ -431,6 +438,7 @@ p{
     padding-bottom: 56.25%;
     height: 0;
 }
+
 
 
 .iframe-container iframe{
