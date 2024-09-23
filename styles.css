@@ -268,10 +268,12 @@ p{
     margin-bottom: 0;
     object-fit: cover;
     box-sizing: border-box;
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;   
 }
+
+
+
+
 
 #creative_coding .row{
     min-height: 300px;
