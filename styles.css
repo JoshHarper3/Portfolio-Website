@@ -597,6 +597,10 @@ p{
 
 
 @media (max-width: 950px) {
+     #header {
+        background-image: none; /* New image for 800px screens */
+        height: auto;
+    }
     .circle-image-creative-coding-1{
         margin-left: auto;
         margin-right: auto;
