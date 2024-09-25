@@ -281,6 +281,7 @@ p{
 
 
 
+
 #creative_coding .row{
     min-height: 300px;
 }
@@ -699,4 +700,22 @@ p{
         font-style: normal;
     }
     
+}
+
+@media (min-width: 2000px) and (max-width: 7000px) {
+    .contact-right img{
+        height: 800px;
+        width: 1000px;
+    }
+
+    h1{
+        text-align: center;
+        padding-right: 800px;
+    }
+  
+    
+
+
+
+
 }
