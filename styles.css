@@ -714,7 +714,39 @@ p{
         padding-right: 800px;
     }
   
+    .contact-left {
+        padding-left: 0; /* Remove left padding */
+        width: 100%; /* Full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the content horizontally */
+        text-align: center; /* Centers the text */
+    }
 
+    .contact-left h1 {
+        font-size: 50px; /* Adjust title size */
+        text-align: center; /* Center the title */
+    }
+
+    .contact-inputs {
+        width: 80vw; /* Adjust the width for mobile */
+        margin: 10px 0; /* Add some vertical margin */
+        height: 100px; /* Increase the height for taller input fields */
+        font-size: 18px; /* Increase the font size for better readability */
+        padding-left: 25px; /* Keep the padding consistent */
+    }
+
+    .contact-left textarea {
+        width: 80vw; /* Ensure the textarea also scales */
+    }
+
+    .contact-left button {
+        align-self: center; /* Center the button */
+    }
+
+    .contact-right {
+        display: none; /* Hide the image section on smaller screens */
+}
   
 
 
