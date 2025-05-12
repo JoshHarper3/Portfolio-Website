@@ -223,6 +223,16 @@ p{
     font-weight: bold;
 }
 
+.principles-VR-h4{
+    font-size: 25px;
+    margin-top: 30px;
+    color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
 
 .tab-headers{
     display: flex;
@@ -434,18 +444,23 @@ p{
     box-sizing: border-box;
 }
 
-#media_studio iframe{
+#animation iframe{
     border: 2px solid #FF92A5;
     border-radius: 5px;
     padding: 5px;
 }
 
-#principles_of_3D_environments iframe{
+#game_design iframe{
     border: 2px solid #FF92A5;
     border-radius: 5px;
     padding: 5px;
 }
 
+#creative_coding iframe{
+    border: 2px solid #FF92A5;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 
 
@@ -454,6 +469,7 @@ p{
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
+    aspect-ratio: auto;
 }
 
 
@@ -466,6 +482,22 @@ p{
     height: 100%;
 }
 
+.iframe-portrait {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .iframe-portrait iframe {
+    width: 100%;
+    max-width: 315px;
+    aspect-ratio: 9 / 16;
+    height: auto;
+    border: 2px solid #FF92A5;
+    border-radius: 5px;
+    padding: 5px;
+  }
 
 
 .iframe-container-last{
