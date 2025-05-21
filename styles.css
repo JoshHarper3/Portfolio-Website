@@ -36,14 +36,8 @@ html{
     font-weight: lighter;
 }
 
-@media screen and (max-width: 1024px) {
-    .uwy.userway_p1.uo {
-      right: auto !important;
-      left: 10px !important; /* Adjust as needed */
-      bottom: 10px !important; /* You can also tweak this */
-    }
-  }
-  
+
+
 .nav-link{
     color: black;
     margin: 30px;
