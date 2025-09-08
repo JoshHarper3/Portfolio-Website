@@ -79,7 +79,17 @@ a:hover{
     text-decoration: underline;
 }
 
-.col-md-6:hover{
+.icon:hover{
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+}
+
+.image-container:hover{
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+}
+
+.iframe-portrait iframe:hover{
   transition: transform 0.2s;
   transform: translateY(-5px);
 }
