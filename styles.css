@@ -79,7 +79,10 @@ a:hover{
     text-decoration: underline;
 }
 
-
+.col-md-6:hover{
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+}
 
 #about_me .about-me-col-1 img{
     max-width: 100%;
