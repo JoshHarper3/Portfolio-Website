@@ -89,10 +89,7 @@ a:hover{
   transform: translateY(-5px);
 }
 
-.iframe-portrait iframe:hover{
-  transition: transform 0.2s;
-  transform: translateY(-5px);
-}
+
 
 #about_me .about-me-col-1 img{
     max-width: 100%;
