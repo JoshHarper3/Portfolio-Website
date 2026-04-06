@@ -52,6 +52,25 @@ html{
     background-color: white;
 }
 
+.nav-link-footer{
+    color: black;
+    margin: 30px;
+}
+
+.nav-link-footer:hover{
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+}
+
+.footer-nav {
+  list-style: none;     /* removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;        /* makes items go left → right */
+  justify-content: center;
+  gap: 20px;            /* space between links */
+}
 
 h1{
     color: white;
