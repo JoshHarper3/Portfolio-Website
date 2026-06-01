@@ -37,7 +37,7 @@ html{
 }
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1366px) {
   .footer-nav {
     flex-wrap: wrap;
     gap: 10px 20px;
