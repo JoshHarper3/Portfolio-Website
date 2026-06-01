@@ -37,7 +37,29 @@ html{
 }
 
 
+@media (max-width: 1600px) {
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
+  .nav-link-footer {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .h5-footer {
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-nav li {
+    flex: 0 0 45%;
+    text-align: center;
+  }
+}
 .nav-link{
     color: black;
     margin: 30px;
@@ -70,6 +92,35 @@ html{
   display: flex;        /* makes items go left → right */
   justify-content: center;
   gap: 20px;            /* space between links */
+}
+
+
+.footer-nav li {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 950px) {
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .nav-link-footer{
+    margin: 0px;
+    font-size: 15px;
+  }
+
+  .h5-footer{
+    padding: 0px;
+    text-align: center;
+  }
+
+  .footer-nav li {
+    flex: 0 0 45%;
+    text-align: center;
+  }
 }
 
 h1{
@@ -772,7 +823,7 @@ p{
     .subheading-about {
         padding: 0px;
     }
-
+   
     
 
 
@@ -789,12 +840,14 @@ p{
     .h5-footer{
         color: white;
         font-size: 20px;
-        text-align: left;
+        text-align: center;
         padding: 0 30px;
         font-family: "lorimer-no-2", sans-serif;
         font-weight: bold;
         font-style: normal;
     }
+
+
     
 }
 
