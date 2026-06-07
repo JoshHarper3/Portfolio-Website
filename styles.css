@@ -163,11 +163,13 @@ a:hover{
 .icon:hover{
   transition: transform 0.2s;
   transform: translateY(-5px);
+  transform: scale(1.04);
 }
 
 .image-container:hover{
   transition: transform 0.2s;
   transform: translateY(-5px);
+  transform: scale(1.04);
 }
 
 
@@ -177,7 +179,16 @@ a:hover{
     height: auto;
     display: block;
     border-radius: 20px;
+    transition: transform 0.2s ease-out;
 }
+#about_me .about-me-col-1 img:hover{
+    transition: transform 0.2s;
+    transform: scale(1.04);
+}
+
+
+
+
 
 #about{
     padding: 80px 0;
@@ -551,6 +562,16 @@ p{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+iframe{
+    transition: transform 0.2s ease-out;
+}
+
+iframe:hover{
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+  transform: scale(1.04);
 }
 
 #animation iframe{
