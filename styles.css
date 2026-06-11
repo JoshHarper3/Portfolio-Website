@@ -522,6 +522,14 @@ p{
     border-radius: 50px;
     background: linear-gradient(270deg, #FF92A5, #800080);
     cursor: pointer;
+    transition: transform 0.2s ease-out;
+}
+
+
+.contact-left button:hover{
+  transition: transform 0.2s;
+  transform: translateY(-5px);
+  transform: scale(1.08);
 }
 
 .contact-inputs::placeholder{
